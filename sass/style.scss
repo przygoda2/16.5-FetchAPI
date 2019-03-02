@@ -1,0 +1,51 @@
+@mixin btn{
+	width: 400px;
+    height: 50px;
+    margin: 0 auto;
+    border: 0.5px solid rgb(255, 255, 255);
+    margin-top: 20px;
+}
+
+*{
+	text-align: center;
+	background-color: #4284FF;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+main {
+    text-align: center;
+    margin-top: 100px;
+}
+div, header {
+    display: block;
+    margin: 120px 0 auto;
+}
+
+.trigger{  
+	@include btn; 
+}
+
+.bird{  
+	@include btn; 
+}
+
+h1{
+	@include btn;
+    border:none;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+h3{
+	@include btn;
+    border:none;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top:50px;
+}
+
+.fa-lg {
+    margin-top: 14px;
+}

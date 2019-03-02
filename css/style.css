@@ -1,0 +1,62 @@
+* {
+  text-align: center;
+  background-color: #4284FF;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+main {
+  text-align: center;
+  margin-top: 100px;
+}
+
+div, header {
+  display: block;
+  margin: 120px 0 auto;
+}
+
+.trigger {
+  width: 400px;
+  height: 50px;
+  margin: 0 auto;
+  border: 0.5px solid white;
+  margin-top: 20px;
+}
+
+.bird {
+  width: 400px;
+  height: 50px;
+  margin: 0 auto;
+  border: 0.5px solid white;
+  margin-top: 20px;
+}
+
+h1 {
+  width: 400px;
+  height: 50px;
+  margin: 0 auto;
+  border: 0.5px solid white;
+  margin-top: 20px;
+  border: none;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+h3 {
+  width: 400px;
+  height: 50px;
+  margin: 0 auto;
+  border: 0.5px solid white;
+  margin-top: 20px;
+  border: none;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 50px;
+}
+
+.fa-lg {
+  margin-top: 14px;
+}
+/*# sourceMappingURL=style.css.map */
